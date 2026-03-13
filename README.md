@@ -41,9 +41,3 @@ https://github.com/karolinecostag/petshopaumigos
 🔗 **Site publicado:**  
 https://karolinecostag.github.io/petshopaumigos  
 
----
-
-
-**Karoline Costa**  
-
-Projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**.
