@@ -1,33 +1,193 @@
-<h1>Produtos</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<h2>Rações</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
 
-<img src="imagens/racaoadulto.jpg" width="200">
-<p><b>Ração Golden Special para Cães Adultos Frango e Carne 15 kg</b></p>
-<p>Valor: R$160</p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-<img src="imagens/racaofilhote.jpg" width="200">
-<p><b>Ração Golden Formula Cães Filhotes Raças Pequenas Carne e Arroz 1,0 kg</b></p>
-<p>Valor: R$145</p><br>
+<body>
 
-<hr>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🐶 PetShop Aumigos</a>
 
-<h2>Brinquedos</h2>
-<img src="imagens/brinquedocao.jpg" width="200">
-<p><b>Brinquedo para cães</b></p>
-<p>Valor: R$30</p>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<img src="imagens/brinquedogato.jpg" width="200">
-<p><b>Brinquedo para gatos</b></p>
-<p>Valor: R$25</p><br>
+    <div style="margin-top: 80px;"></div>
 
-<hr>
+    <main class="container">
+        <h2 class="mb-4">Produtos</h2>
 
-<h2>Acessórios</h2>
-<img src="imagens/coleiracao.jpg" width="200">
-<p><b>Coleira para cães</b></p>
-<p>Valor: R$20</p>
+        <!-- PRODUTOS APENAS PARA CÃES -->
+        <h4 id="racoes">🐶 Rações Premium para Cães</h4>
+        <div class="row g-4">
 
-<img src="imagens/comedourocao.jpg" width="200">
-<p><b>Comedouro duplo para cães</b></p>
-<p>Valor: R$80</p>
+            <!-- IMAGENS E DESCRIÇÕES DAS RAÇÕES PARA CÃES EM CARDS-->
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/racaoadulto.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ração Golden Adulto</h5>
+                        <p><b>R$160</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/racaofilhote.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ração Golden Filhote</h5>
+                        <p><b>R$145</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RAÇÕES APENAS PARA GATOS -->
+            <hr>
+            <h4 class="mt-4">🐱 Rações Premium para Gatos</h4>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/racaogato.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ração Golden 3,0Kg Gatos Castrados</h5>
+                        <p><b>R$80</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/racaogato1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Ração Golden 3,0Kg Gatos Adultos</h5>
+                        <p><b>R$60</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACESSÓRIOS PARA CÃES E GATOS-->
+            <hr>
+            <h4 id="acessorios">🎒 Acessórios para Cães e Gatos</h4>
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/brinquedocao.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Brinquedo Nylon para Cães</h5>
+                        <p><b>R$30</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/brinquedocao1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Brinquedo Pelúcia para Cães</h5>
+                        <p><b>R$35</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/coleiracao.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Coleira para Cães</h5>
+                        <p><b>R$50</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/brinquedogato.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Pelúcia para Gatos</h5>
+                        <p><b>R$25</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/varinhagato.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Brinquedo para Gatos</h5>
+                        <p><b>R$12</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/acessoriogato.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Acessório para Alimentação de Gatos</h5>
+                        <p><b>R$120</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/comedourocao.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Acessório para Alimentação de Cães</h5>
+                        <p><b>R$100</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <h4 id="higiene">🧼 Higiene e Limpeza</h4>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/fralda.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Fralda Descartável Cães</h5>
+                        <p><b>R$40</b></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 produto">
+                <div class="card h-100">
+                    <img src="imagens/tapetesapecao.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Tapete Higiênico</h5>
+                        <p><b>R$90</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-custom text-center p-3 mt-4">
+        <p>© 2026 PetShop Aumigos</p>
+        <p><b>Autora:</b> Karoline Costa</p>
+        <p>Disciplina: Fundamentos de Sistemas Web</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
