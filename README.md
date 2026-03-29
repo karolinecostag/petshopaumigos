@@ -33,11 +33,19 @@ Desenvolver a estrutura inicial de um site para um petshop contendo:
 - Formulário para agendamentos
 - Scroll suave para seções específicas
 
+---
+
 ## 🛠 Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScript
 - Bootstrap
+
+## ♿ Acessibilidade
+O projeto foi adaptado para acessibilidade, incluindo:
+
+- Uso do atributo alt para descrição de imagens
+- Melhorias na navegação para leitores de tela
 
 ---
 
